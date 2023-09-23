@@ -28,12 +28,13 @@
     height: 400px;
     object-fit: cover;
     object-position: left;
+    top: 80px;
   }
 
   header .bottom .slider {
     position: relative;
     left: 35px;
-    top: 200px;
+    top: 160px;
   }
 
   header .bottom .slider .top {
