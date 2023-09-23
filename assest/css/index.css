@@ -333,9 +333,16 @@ section.second .right div.locations h2 {
   font-weight: 600;
 }
 
-section.second .right div.locations h2 i {
-  margin-left: 140px;
+section.second .right div.locations div.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.second .right div.locations .top  i {
+  font-size: 32px;
   color: #fea700;
+  align-self: flex-start;
 }
 
 section.second .right div.locations p {
@@ -343,6 +350,7 @@ section.second .right div.locations p {
   color: #ffffff;
   font-size: 16px;
   margin-bottom: 35px;
+  line-height: 24px;
 }
 section.second .right div.locations span {
   align-self: flex-end;

@@ -175,8 +175,9 @@
     margin-bottom: 15px;
   }
 
-  section.second .right div.locations h2 i {
-    margin-left: 55px;
+  section.second .right div.locations .top i {
+    font-size: 19px;
+    margin-left: 50px;
   }
   section.second .right div.locations p {
     font-size: 13px;
