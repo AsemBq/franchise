@@ -8,8 +8,22 @@
   
   header .top nav {
     height: 60px;
+    justify-content: space-around;
+    position:fixed;
+    z-index: 8;
+    background-color: #161735;
   }
 
+  header nav .button{
+    display: none;
+  }
+
+  header a.mobile-button{
+    display: inline-block;
+    color: #ffa200;
+    justify-self: flex-end;
+    font-size: 30px;
+  }
   header .top nav ul {
     display: none;
   }
@@ -34,7 +48,7 @@
   header .bottom .slider {
     position: relative;
     left: 35px;
-    top: 160px;
+    top: 240px;
   }
 
   header .bottom .slider .top {
@@ -65,8 +79,9 @@
   /* Secsion Style */
 
   section.about-us {
-    margin-top: 130px;
+    margin-top: 100px;
     height: 910px;
+    padding-bottom: 100px;
   }
   section.about-us div.top {
     flex-direction: column;
@@ -208,6 +223,10 @@
 
   section.third .bottom .left {
     width: 80%;
+  }
+
+  section.third .bottom .left img{
+    padding-top: 0;
   }
   section.third .bottom .left div {
     padding: 0px 0px 0px 20px;
